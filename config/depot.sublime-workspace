@@ -1,0 +1,172 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jli/Documents/depot/config/database.yml",
+		"/Users/jli/Documents/depot/db/migrate/20120912182946_create_products.rb",
+		"/Users/jli/Documents/IntroToRuby/ch4/say_goodnight.rb",
+		"/Users/jli/Documents/IntroToRuby/ch4/say_goodnight",
+		"/Users/jli/Documents/demo/Rakefile",
+		"/Users/jli/Documents/demo/README.rdoc",
+		"/Users/jli/bin/new",
+		"/Users/jli/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jli/Documents/demo/app/views/say/goodbye.html.erb",
+		"/Users/jli/Documents/demo/app/controllers/say_controller.rb",
+		"/Users/jli/Documents/demo/app/views/say/hello.html.erb",
+		"/Users/jli/Documents/demo/app/views/say/filenames.html.erb",
+		"/Users/jli/Documents/demo/config/routes.rb",
+		"/Users/jli/Documents/demo/app/controllers/application_controller.rb",
+		"/Users/jli/Documents/Razorback/Server/config/development.yml",
+		"/Users/jli/Documents/Razorback/Server/Background/features/adherence_monitoring.feature",
+		"/Users/jli/Documents/Razorback/Server/Background/features/step_definitions/adherence_steps.rb",
+		"/Users/jli/Documents/Razorback/Server/config/deploy.rb",
+		"/Users/jli/Documents/Razorback/Server/config/production.yml",
+		"/Users/jli/Documents/Razorback/Server/config/web_httpd.conf",
+		"/Users/jli/Documents/Razorback/Server/Common/config/database.yml",
+		"/Users/jli/Documents/Razorback/Server/Web/config/telemonitoring.yml",
+		"/Users/jli/Documents/Razorback/README.txt",
+		"/Users/jli/Documents/Razorback/Server/config/deploy/staging.rb",
+		"/Users/jli/Documents/Razorback/Server/Rakefile",
+		"/Users/jli/Documents/Profile Summary for Ian to send out"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n",
+			"melanie"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"say",
+				"app/controllers/say_controller.rb"
+			],
+			[
+				"hello",
+				"app/views/say/hello.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true
+}

@@ -7,8 +7,56 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/jli/Documents/depot/app/assets/stylesheets/products.css.scss",
+			"settings":
+			{
+				"buffer_size": 679,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jli/Documents/depot/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 275,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jli/Documents/depot/app/views/products/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 721,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jli/Documents/depot/app/models/product.rb",
+			"settings":
+			{
+				"buffer_size": 424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jli/Documents/depot/test/functional/products_controller_test.rb",
+			"settings":
+			{
+				"buffer_size": 1165,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jli/Documents/depot/test/unit/product_test.rb",
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/SASS/SASS (OSX).sublime-build",
 	"command_palette":
 	{
 		"height": 392.0,
@@ -32,6 +80,12 @@
 	},
 	"file_history":
 	[
+		"/Users/jli/Documents/depot/Rakefile",
+		"/Users/jli/Documents/depot/.gitignore",
+		"/Users/jli/.gitconfig",
+		"/Users/jli/Documents/depot/app/views/products/_form.html.erb",
+		"/Users/jli/Documents/depot/db/seeds.rb",
+		"/Users/jli/Documents/depot/config/routes.rb",
 		"/Users/jli/Documents/depot/config/database.yml",
 		"/Users/jli/Documents/depot/db/migrate/20120912182946_create_products.rb",
 		"/Users/jli/Documents/IntroToRuby/ch4/say_goodnight.rb",
@@ -94,8 +148,183 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/jli/Documents/depot/app/assets/stylesheets/products.css.scss",
+					"settings":
+					{
+						"buffer_size": 679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jli/Documents/depot/app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jli/Documents/depot/app/views/products/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+							"bookmark_a":
+							{
+								"flags": 144,
+								"regions":
+								[
+									[
+										430,
+										430
+									]
+								]
+							}
+						},
+						"selection":
+						[
+							[
+								554,
+								554
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/jli/Documents/depot/app/models/product.rb",
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/jli/Documents/depot/test/functional/products_controller_test.rb",
+					"settings":
+					{
+						"buffer_size": 1165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								924,
+								924
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/jli/Documents/depot/test/unit/product_test.rb",
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -140,6 +369,38 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"prodtest",
+				"test/unit/product_test.rb"
+			],
+			[
+				"prodcontroltest",
+				"test/functional/products_controller_test.rb"
+			],
+			[
+				"modelspro",
+				"app/models/product.rb"
+			],
+			[
+				"indexer",
+				"app/views/products/index.html.erb"
+			],
+			[
+				"application.html.",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"productcs",
+				"app/assets/stylesheets/products.css.scss"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"_form",
+				"app/views/products/_form.html.erb"
+			],
 			[
 				"routes",
 				"config/routes.rb"

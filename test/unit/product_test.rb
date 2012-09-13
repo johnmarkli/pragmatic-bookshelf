@@ -1,6 +1,5 @@
 require 'test_helper'
 
-
 class ProductTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
@@ -66,6 +65,18 @@ class ProductTest < ActiveSupport::TestCase
                           image_url: "fred.gif")
     assert !product.save
     assert_equal "has already been taken", product.errors[:title].join('; ')
+  end
+
+  #test title minimum 10 characters
+  test "title is minimum 10 characters" do
+    product = Product.new(description: "yyy",
+                          price: 1,
+                          image_url: "fred.gif")
+    product.title = "more than 10 characters"
+    assert product.valid?, "#{product.title} product title shouldn't be invalid" 
+
+    product.title = "less 10"
+    assert product.invalid?, "product title shouldn't be valid"
   end
 
 end

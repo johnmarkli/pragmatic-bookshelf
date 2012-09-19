@@ -43,12 +43,13 @@ class LineItemsController < ApplicationController
 
     @cart = current_cart
     product = Product.find(params[:product_id])
-    @line_item = @cart.line_items.build(:product_id => product.id)
+    @line_item = @cart.add_product(product.id)
 
     respond_to do |format|
       if @line_item.save
         session[:counter] = 0
-        format.html { redirect_to @line_item.cart, notice: 'Line item was successfully created.' }
+        format.html { redirect_to store_url }
+        format.js {@current_item = @line_item}
         format.json { render json: @line_item, status: :created, location: @line_item }
       else
         format.html { render action: "new" }
@@ -56,6 +57,26 @@ class LineItemsController < ApplicationController
       end
     end
   end
+
+  # POST /line_items
+  # POST /line_items.json
+  def decrement
+    @cart = current_cart
+    
+    @line_item = @cart.decrement_line_item_quantity(params[:id]) #passing in line_item.id
+
+    respond_to do |format|
+      if @line_item.save
+        format.html { redirect_to store_path }
+        format. js { @current_item = @line_item }
+        format.json { head :ok}
+      else
+        format.html { render action: "edit" }
+        format.js { @current_item = @line_item }
+        format.json { render json: @line_item.erros, status: :unprocessable_entity}
+      end
+    end
+  end  
 
   # PUT /line_items/1
   # PUT /line_items/1.json
@@ -77,11 +98,22 @@ class LineItemsController < ApplicationController
   # DELETE /line_items/1.json
   def destroy
     @line_item = LineItem.find(params[:id])
-    @line_item.destroy
+    @cart = current_cart
+
+    if @line_item.quantity > 1
+      @line_item.update_attributes(:quantity => @line_item.quantity - 1)
+    else
+      @line_item.destroy
+    end
 
     respond_to do |format|
-      format.html { redirect_to line_items_url }
-      format.json { head :no_content }
+      if @cart.line_items.count.zero? 
+        format.html { redirect_to store_url, notice: 'Your cart is empty' }
+        format.json { head :no_content }
+      else
+        format.html { redirect_to store_url}
+        format.json { head :no_content }
+      end
     end
   end
 end

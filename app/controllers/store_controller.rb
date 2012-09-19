@@ -2,6 +2,7 @@ class StoreController < ApplicationController
   def index
   	# @products = Product.find(:all)
   	@products = Product.order(:title)
+    @cart = current_cart
 
     @session_counter = session[:counter]
     if @session_counter.nil?

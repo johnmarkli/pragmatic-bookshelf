@@ -3,71 +3,43 @@
 	{
 		"selected_items":
 		[
+			[
+				"update",
+				"update_attributes"
+			],
+			[
+				"asser",
+				"assert_equal"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/jli/Documents/depot/app/assets/stylesheets/products.css.scss",
-			"settings":
-			{
-				"buffer_size": 679,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jli/Documents/depot/app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 275,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jli/Documents/depot/app/views/products/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 721,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jli/Documents/depot/app/models/product.rb",
-			"settings":
-			{
-				"buffer_size": 424,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jli/Documents/depot/test/functional/products_controller_test.rb",
-			"settings":
-			{
-				"buffer_size": 1165,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jli/Documents/depot/test/unit/product_test.rb",
-			"settings":
-			{
-				"buffer_size": 391,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/SASS/SASS (OSX).sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 47.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				":install",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 392.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 139.0
 	},
 	"distraction_free":
 	{
@@ -80,12 +52,57 @@
 	},
 	"file_history":
 	[
+		"/Users/jli/Documents/depot/config/routes.rb",
+		"/Users/jli/Documents/depot/app/models/cart.rb",
+		"/Users/jli/Documents/depot/app/views/carts/_cart.html.erb",
+		"/Users/jli/Documents/depot/app/views/line_items/_line_item.html.erb",
+		"/Users/jli/Documents/depot/app/views/line_items/decrement.js.erb",
+		"/Users/jli/Documents/depot/app/views/line_items/create.js.erb",
+		"/Users/jli/Documents/depot/app/views/carts/decrement.js.erb",
+		"/Users/jli/Documents/depot/app/controllers/line_items_controller.rb",
+		"/Users/jli/Documents/depot/app/controllers/carts_controller.rb",
+		"/Users/jli/Documents/depot/app/views/store/index.html.erb",
+		"/Users/jli/Documents/depot/app/views/carts/destroy.js.erb",
+		"/Users/jli/Documents/depot/app/views/line_items/destroy.js.erb",
+		"/Users/jli/Documents/depot/app/assets/javascripts/carts.js.coffee",
+		"/Users/jli/Documents/depot/test/unit/helpers/carts_helper_test.rb",
+		"/Users/jli/Documents/depot/app/helpers/application_helper.rb",
+		"/Users/jli/Documents/depot/app/assets/javascripts/application.js",
+		"/Users/jli/Documents/depot/app/assets/stylesheets/application.css.scss",
+		"/Users/jli/Documents/depot/app/views/carts/show.html.erb",
+		"/Users/jli/Documents/depot/app/assets/javascripts/store.js.coffee",
+		"/Users/jli/Documents/depot/app/views/layouts/application.html.erb",
+		"/Users/jli/Documents/depot/test/functional/line_items_controller_test.rb",
+		"/Users/jli/Documents/depot/test/functional/store_controller_test.rb",
+		"/Users/jli/Documents/depot/log/development.log",
+		"/Users/jli/Documents/depot/app/views/line_items/show.html.erb",
+		"/Users/jli/Documents/depot/app/controllers/store_controller.rb",
+		"/Users/jli/Documents/depot/app/views/line_items/index.html.erb",
+		"/Users/jli/Documents/depot/test/functional/carts_controller_test.rb",
+		"/Users/jli/Documents/depot/app/models/line_item.rb",
+		"/Users/jli/Documents/depot/app/assets/stylesheets/carts.css.scss",
+		"/Users/jli/Documents/depot/test/unit/cart_test.rb",
+		"/Users/jli/Documents/depot/test/fixtures/line_items.yml",
+		"/Users/jli/Documents/depot/test/fixtures/carts.yml",
+		"/Users/jli/Documents/depot/db/migrate/20120914195331_combine_items_in_cart.rb",
+		"/Users/jli/Documents/depot/db/migrate/20120917150951_add_price_to_line_item.rb",
+		"/Users/jli/Documents/depot/db/migrate/20120914192609_add_quantity_to_line_items.rb",
+		"/Users/jli/Documents/depot/app/controllers/application_controller.rb",
+		"/Users/jli/Documents/depot/app/models/product.rb",
+		"/Users/jli/Documents/depot/app/assets/stylesheets/store.css.scss",
+		"/Users/jli/Documents/depot/app/helpers/store_helper.rb",
+		"/Users/jli/Documents/depot/config/depot.sublime-workspace",
+		"/Users/jli/Documents/depot/app/views/products/index.html.erb",
+		"/Users/jli/Documents/depot/test/fixtures/products.yml",
+		"/Users/jli/Documents/depot/test/unit/product_test.rb",
+		"/Users/jli/Documents/depot/test/functional/products_controller_test.rb",
+		"/Users/jli/Documents/depot/app/controllers/products_controller.rb",
+		"/Users/jli/Documents/depot/app/assets/stylesheets/products.css.scss",
 		"/Users/jli/Documents/depot/Rakefile",
 		"/Users/jli/Documents/depot/.gitignore",
 		"/Users/jli/.gitconfig",
 		"/Users/jli/Documents/depot/app/views/products/_form.html.erb",
 		"/Users/jli/Documents/depot/db/seeds.rb",
-		"/Users/jli/Documents/depot/config/routes.rb",
 		"/Users/jli/Documents/depot/config/database.yml",
 		"/Users/jli/Documents/depot/db/migrate/20120912182946_create_products.rb",
 		"/Users/jli/Documents/IntroToRuby/ch4/say_goodnight.rb",
@@ -115,7 +132,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -129,6 +146,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"      ",
+			"cart",
+			"\n  ",
+			"ruby",
+			"      ",
+			"assert_equal",
+			" \"",
 			"\n",
 			"melanie"
 		],
@@ -148,183 +172,8 @@
 	"groups":
 	[
 		{
-			"selected": 5,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/jli/Documents/depot/app/assets/stylesheets/products.css.scss",
-					"settings":
-					{
-						"buffer_size": 679,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								621,
-								621
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/jli/Documents/depot/app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 275,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								241,
-								241
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/jli/Documents/depot/app/views/products/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 721,
-						"regions":
-						{
-							"bookmark_a":
-							{
-								"flags": 144,
-								"regions":
-								[
-									[
-										430,
-										430
-									]
-								]
-							}
-						},
-						"selection":
-						[
-							[
-								554,
-								554
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/jli/Documents/depot/app/models/product.rb",
-					"settings":
-					{
-						"buffer_size": 424,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								417,
-								417
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/jli/Documents/depot/test/functional/products_controller_test.rb",
-					"settings":
-					{
-						"buffer_size": 1165,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								924,
-								924
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/jli/Documents/depot/test/unit/product_test.rb",
-					"settings":
-					{
-						"buffer_size": 391,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								255,
-								255
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -359,6 +208,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
 	"replace":
 	{
 		"height": 0.0
@@ -370,8 +223,392 @@
 		"selected_items":
 		[
 			[
+				"creatjs",
+				"app/views/line_items/create.js.erb"
+			],
+			[
+				"jserb",
+				"app/views/carts/destroy.js.erb"
+			],
+			[
+				"cart.rb",
+				"app/models/cart.rb"
+			],
+			[
+				"lineitemcon",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"lineitemcont",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"viewlineite",
+				"app/views/line_items/_line_item.html.erb"
+			],
+			[
+				"viewscart",
+				"app/views/carts/_cart.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"create",
+				"app/views/line_items/create.js.erb"
+			],
+			[
+				"destroyjs",
+				"app/views/carts/destroy.js.erb"
+			],
+			[
+				"viewstore",
+				"app/views/store/index.html.erb"
+			],
+			[
+				"lineitemhtml",
+				"app/views/line_items/_line_item.html.erb"
+			],
+			[
+				"views_cart",
+				"app/views/carts/_cart.html.erb"
+			],
+			[
+				"line_itecont",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"js",
+				"app/views/line_items/create.js.erb"
+			],
+			[
+				"javascrcart",
+				"app/assets/javascripts/carts.js.coffee"
+			],
+			[
+				"cartcontrol",
+				"app/controllers/carts_controller.rb"
+			],
+			[
+				"cart",
+				"test/unit/helpers/carts_helper_test.rb"
+			],
+			[
+				"store_controltest",
+				"test/functional/store_controller_test.rb"
+			],
+			[
+				"lineitemcontortes",
+				"test/functional/line_items_controller_test.rb"
+			],
+			[
+				"viewappl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"storejsco",
+				"app/assets/javascripts/store.js.coffee"
+			],
+			[
+				"javascstore",
+				"app/assets/javascripts/store.js.coffee"
+			],
+			[
+				"createjs",
+				"app/views/line_items/create.js.erb"
+			],
+			[
+				"cartcontroller",
+				"app/controllers/carts_controller.rb"
+			],
+			[
+				"layoutappli",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"helperapplication",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"_line_",
+				"app/views/line_items/_line_item.html.erb"
+			],
+			[
+				"creat",
+				"app/views/line_items/create.js.erb"
+			],
+			[
+				"_line",
+				"app/views/line_items/_line_item.html.erb"
+			],
+			[
+				"lineitemcontro",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"javascrappli",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"lineitemcontroller",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"storeindex",
+				"app/views/store/index.html.erb"
+			],
+			[
+				"storecontroller",
+				"app/controllers/store_controller.rb"
+			],
+			[
+				"index",
+				"app/views/line_items/index.html.erb"
+			],
+			[
+				"show",
+				"app/views/line_items/show.html.erb"
+			],
+			[
+				"styleappl",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"cartsshow",
+				"app/views/carts/show.html.erb"
+			],
+			[
+				"_cart",
+				"app/views/carts/_cart.html.erb"
+			],
+			[
+				"styleapp",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"_lineit",
+				"app/views/line_items/_line_item.html.erb"
+			],
+			[
+				"stylecart",
+				"app/assets/stylesheets/carts.css.scss"
+			],
+			[
+				"layoutappl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"cartscontrollere",
+				"test/functional/carts_controller_test.rb"
+			],
+			[
+				"cartcontrollertest",
+				"test/functional/carts_controller_test.rb"
+			],
+			[
+				"cartscontroller",
+				"app/controllers/carts_controller.rb"
+			],
+			[
+				"cartcontro",
+				"app/controllers/carts_controller.rb"
+			],
+			[
+				"modelcart",
+				"app/models/cart.rb"
+			],
+			[
+				"modelline",
+				"app/models/line_item.rb"
+			],
+			[
+				"lineitemcontroltest",
+				"test/functional/line_items_controller_test.rb"
+			],
+			[
+				"line_items_controller",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"cartshow",
+				"app/views/carts/show.html.erb"
+			],
+			[
+				"line",
+				"app/models/line_item.rb"
+			],
+			[
+				"fixturelineitem",
+				"test/fixtures/line_items.yml"
+			],
+			[
+				"fixtures",
+				"test/fixtures/carts.yml"
+			],
+			[
+				"cartcontrolertest",
+				"test/functional/carts_controller_test.rb"
+			],
+			[
+				"unitcart",
+				"test/unit/cart_test.rb"
+			],
+			[
+				"addprice",
+				"db/migrate/20120917150951_add_price_to_line_item.rb"
+			],
+			[
+				"stylecarscs",
+				"app/assets/stylesheets/carts.css.scss"
+			],
+			[
+				"modelscart",
+				"app/models/cart.rb"
+			],
+			[
+				"modelline_item",
+				"app/models/line_item.rb"
+			],
+			[
+				"line_itemscon",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"cartscontrotest",
+				"test/functional/carts_controller_test.rb"
+			],
+			[
+				"cartscon",
+				"app/controllers/carts_controller.rb"
+			],
+			[
+				"cartscontro",
+				"app/controllers/carts_controller.rb"
+			],
+			[
+				"lineitem",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"combine",
+				"db/migrate/20120914195331_combine_items_in_cart.rb"
+			],
+			[
+				"migrateadd",
+				"db/migrate/20120914192609_add_quantity_to_line_items.rb"
+			],
+			[
+				"line_itemcon",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"storecontroler",
+				"app/controllers/store_controller.rb"
+			],
+			[
+				"linecon",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"applicationscs",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"lineitemscontroltes",
+				"test/functional/line_items_controller_test.rb"
+			],
+			[
+				"storecss",
+				"app/assets/stylesheets/store.css.scss"
+			],
+			[
+				"items_con",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"product",
+				"app/models/product.rb"
+			],
+			[
+				"line_item",
+				"app/models/line_item.rb"
+			],
+			[
+				"cart.r",
+				"app/models/cart.rb"
+			],
+			[
+				"applicationcon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"storecontro",
+				"app/controllers/store_controller.rb"
+			],
+			[
+				"storecontes",
+				"test/functional/store_controller_test.rb"
+			],
+			[
+				"storehel",
+				"app/helpers/store_helper.rb"
+			],
+			[
+				"appli",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"storeinde",
+				"app/views/store/index.html.erb"
+			],
+			[
+				"applicationhtm",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"storehelp",
+				"app/helpers/store_helper.rb"
+			],
+			[
+				"viewsstoreind",
+				"app/views/store/index.html.erb"
+			],
+			[
+				"storecon",
+				"app/controllers/store_controller.rb"
+			],
+			[
+				"configroutes",
+				"config/routes.rb"
+			],
+			[
+				"modelprod",
+				"app/models/product.rb"
+			],
+			[
+				"productscontrol",
+				"app/controllers/products_controller.rb"
+			],
+			[
+				"product.r",
+				"app/models/product.rb"
+			],
+			[
 				"prodtest",
 				"test/unit/product_test.rb"
+			],
+			[
+				"prody",
+				"test/fixtures/products.yml"
+			],
+			[
+				"product_test",
+				"test/unit/product_test.rb"
+			],
+			[
+				"fixturespr",
+				"test/fixtures/products.yml"
 			],
 			[
 				"prodcontroltest",
@@ -424,10 +661,10 @@
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 195.0,
+	"side_bar_width": 201.0,
 	"status_bar_visible": true
 }

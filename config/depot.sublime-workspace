@@ -52,14 +52,25 @@
 	},
 	"file_history":
 	[
-		"/Users/jli/Documents/depot/config/routes.rb",
-		"/Users/jli/Documents/depot/app/models/cart.rb",
+		"/Users/jli/Documents/depot/test/functional/line_items_controller_test.rb",
+		"/Users/jli/Documents/depot/app/models/product.rb",
+		"/Users/jli/Documents/depot/app/models/line_item.rb",
+		"/Users/jli/Documents/depot/app/controllers/line_items_controller.rb",
+		"/Users/jli/Documents/depot/test/functional/products_controller_test.rb",
+		"/Users/jli/Documents/depot/test/functional/orders_controller_test.rb",
+		"/Users/jli/Documents/depot/config/application.rb",
+		"/Users/jli/Documents/depot/test/functional/carts_controller_test.rb",
+		"/Users/jli/Documents/depot/test/unit/line_item_test.rb",
 		"/Users/jli/Documents/depot/app/views/carts/_cart.html.erb",
+		"/Users/jli/Documents/depot/app/models/order.rb",
+		"/Users/jli/Documents/depot/app/controllers/orders_controller.rb",
+		"/Users/jli/Documents/depot/app/models/cart.rb",
+		"/Users/jli/Documents/depot/test/functional/store_controller_test.rb",
+		"/Users/jli/Documents/depot/config/routes.rb",
 		"/Users/jli/Documents/depot/app/views/line_items/_line_item.html.erb",
 		"/Users/jli/Documents/depot/app/views/line_items/decrement.js.erb",
 		"/Users/jli/Documents/depot/app/views/line_items/create.js.erb",
 		"/Users/jli/Documents/depot/app/views/carts/decrement.js.erb",
-		"/Users/jli/Documents/depot/app/controllers/line_items_controller.rb",
 		"/Users/jli/Documents/depot/app/controllers/carts_controller.rb",
 		"/Users/jli/Documents/depot/app/views/store/index.html.erb",
 		"/Users/jli/Documents/depot/app/views/carts/destroy.js.erb",
@@ -72,14 +83,10 @@
 		"/Users/jli/Documents/depot/app/views/carts/show.html.erb",
 		"/Users/jli/Documents/depot/app/assets/javascripts/store.js.coffee",
 		"/Users/jli/Documents/depot/app/views/layouts/application.html.erb",
-		"/Users/jli/Documents/depot/test/functional/line_items_controller_test.rb",
-		"/Users/jli/Documents/depot/test/functional/store_controller_test.rb",
 		"/Users/jli/Documents/depot/log/development.log",
 		"/Users/jli/Documents/depot/app/views/line_items/show.html.erb",
 		"/Users/jli/Documents/depot/app/controllers/store_controller.rb",
 		"/Users/jli/Documents/depot/app/views/line_items/index.html.erb",
-		"/Users/jli/Documents/depot/test/functional/carts_controller_test.rb",
-		"/Users/jli/Documents/depot/app/models/line_item.rb",
 		"/Users/jli/Documents/depot/app/assets/stylesheets/carts.css.scss",
 		"/Users/jli/Documents/depot/test/unit/cart_test.rb",
 		"/Users/jli/Documents/depot/test/fixtures/line_items.yml",
@@ -88,14 +95,12 @@
 		"/Users/jli/Documents/depot/db/migrate/20120917150951_add_price_to_line_item.rb",
 		"/Users/jli/Documents/depot/db/migrate/20120914192609_add_quantity_to_line_items.rb",
 		"/Users/jli/Documents/depot/app/controllers/application_controller.rb",
-		"/Users/jli/Documents/depot/app/models/product.rb",
 		"/Users/jli/Documents/depot/app/assets/stylesheets/store.css.scss",
 		"/Users/jli/Documents/depot/app/helpers/store_helper.rb",
 		"/Users/jli/Documents/depot/config/depot.sublime-workspace",
 		"/Users/jli/Documents/depot/app/views/products/index.html.erb",
 		"/Users/jli/Documents/depot/test/fixtures/products.yml",
 		"/Users/jli/Documents/depot/test/unit/product_test.rb",
-		"/Users/jli/Documents/depot/test/functional/products_controller_test.rb",
 		"/Users/jli/Documents/depot/app/controllers/products_controller.rb",
 		"/Users/jli/Documents/depot/app/assets/stylesheets/products.css.scss",
 		"/Users/jli/Documents/depot/Rakefile",
@@ -223,6 +228,98 @@
 		"selected_items":
 		[
 			[
+				"modelprod",
+				"app/models/product.rb"
+			],
+			[
+				"modellineit",
+				"app/models/line_item.rb"
+			],
+			[
+				"configapp",
+				"config/application.rb"
+			],
+			[
+				"modelline",
+				"app/models/line_item.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"productcontes",
+				"test/functional/products_controller_test.rb"
+			],
+			[
+				"lineitemcontrol",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"line_item",
+				"app/models/line_item.rb"
+			],
+			[
+				"carconttes",
+				"test/functional/carts_controller_test.rb"
+			],
+			[
+				"linitconte",
+				"test/functional/line_items_controller_test.rb"
+			],
+			[
+				"lineitemtest",
+				"test/unit/line_item_test.rb"
+			],
+			[
+				"modellineitem",
+				"app/models/line_item.rb"
+			],
+			[
+				"ordercontroltest",
+				"test/functional/orders_controller_test.rb"
+			],
+			[
+				"modelprodu",
+				"app/models/product.rb"
+			],
+			[
+				"modelcart",
+				"app/models/cart.rb"
+			],
+			[
+				"modelorder",
+				"app/models/order.rb"
+			],
+			[
+				"order",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"liitecontes",
+				"test/functional/line_items_controller_test.rb"
+			],
+			[
+				"lineitcon",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"cartconttest",
+				"test/functional/carts_controller_test.rb"
+			],
+			[
+				"lineitemcont",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"ordercontro",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"_carter",
+				"app/views/carts/_cart.html.erb"
+			],
+			[
 				"creatjs",
 				"app/views/line_items/create.js.erb"
 			],
@@ -236,10 +333,6 @@
 			],
 			[
 				"lineitemcon",
-				"app/controllers/line_items_controller.rb"
-			],
-			[
-				"lineitemcont",
 				"app/controllers/line_items_controller.rb"
 			],
 			[
@@ -415,14 +508,6 @@
 				"app/controllers/carts_controller.rb"
 			],
 			[
-				"modelcart",
-				"app/models/cart.rb"
-			],
-			[
-				"modelline",
-				"app/models/line_item.rb"
-			],
-			[
 				"lineitemcontroltest",
 				"test/functional/line_items_controller_test.rb"
 			],
@@ -531,10 +616,6 @@
 				"app/models/product.rb"
 			],
 			[
-				"line_item",
-				"app/models/line_item.rb"
-			],
-			[
 				"cart.r",
 				"app/models/cart.rb"
 			],
@@ -581,10 +662,6 @@
 			[
 				"configroutes",
 				"config/routes.rb"
-			],
-			[
-				"modelprod",
-				"app/models/product.rb"
 			],
 			[
 				"productscontrol",

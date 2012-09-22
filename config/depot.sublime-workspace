@@ -52,34 +52,50 @@
 	},
 	"file_history":
 	[
-		"/Users/jli/Documents/depot/test/functional/line_items_controller_test.rb",
+		"/Users/jli/Documents/depot/config/environments/development.rb",
+		"/Users/jli/Documents/depot/app/views/order_notifier/received.text.erb",
+		"/Users/jli/Documents/depot/app/mailers/order_notifier.rb",
+		"/Users/jli/Documents/depot/app/views/order_notifier/shipped.text.erb",
+		"/Users/jli/Documents/depot/test/functional/order_notifier_test.rb",
+		"/Users/jli/Documents/depot/app/models/cart.rb",
+		"/Users/jli/Documents/depot/test/unit/helpers/carts_helper_test.rb",
+		"/Users/jli/Documents/depot/app/controllers/orders_controller.rb",
+		"/Users/jli/Documents/depot/app/views/line_items/_line_item.text.erb",
+		"/Users/jli/Documents/depot/script/load_orders.rb",
+		"/Users/jli/Documents/depot/Gemfile",
+		"/Users/jli/Documents/depot/app/controllers/products_controller.rb",
+		"/Users/jli/Documents/depot/config/routes.rb",
 		"/Users/jli/Documents/depot/app/models/product.rb",
-		"/Users/jli/Documents/depot/app/models/line_item.rb",
-		"/Users/jli/Documents/depot/app/controllers/line_items_controller.rb",
-		"/Users/jli/Documents/depot/test/functional/products_controller_test.rb",
+		"/Users/jli/Documents/depot/app/views/products/who_bought.atom.builder",
+		"/Users/jli/Documents/depot/app/views/orders/index.html.erb",
+		"/Users/jli/Documents/depot/config/environment.rb",
+		"/Users/jli/Documents/depot/app/views/orders/new.html.erb",
+		"/Users/jli/Documents/depot/app/views/orders/_form.html.erb",
+		"/Users/jli/Documents/depot/app/models/order.rb",
 		"/Users/jli/Documents/depot/test/functional/orders_controller_test.rb",
+		"/Users/jli/Documents/depot/app/views/line_items/create.js.erb",
+		"/Users/jli/Documents/depot/app/models/line_item.rb",
+		"/Users/jli/Documents/depot/test/fixtures/line_items.yml",
+		"/Users/jli/Documents/depot/test/fixtures/orders.yml",
+		"/Users/jli/Documents/depot/app/controllers/line_items_controller.rb",
+		"/Users/jli/Documents/depot/app/assets/stylesheets/application.css.scss",
+		"/Users/jli/Documents/depot/test/functional/line_items_controller_test.rb",
+		"/Users/jli/Documents/depot/test/functional/products_controller_test.rb",
 		"/Users/jli/Documents/depot/config/application.rb",
 		"/Users/jli/Documents/depot/test/functional/carts_controller_test.rb",
 		"/Users/jli/Documents/depot/test/unit/line_item_test.rb",
 		"/Users/jli/Documents/depot/app/views/carts/_cart.html.erb",
-		"/Users/jli/Documents/depot/app/models/order.rb",
-		"/Users/jli/Documents/depot/app/controllers/orders_controller.rb",
-		"/Users/jli/Documents/depot/app/models/cart.rb",
 		"/Users/jli/Documents/depot/test/functional/store_controller_test.rb",
-		"/Users/jli/Documents/depot/config/routes.rb",
 		"/Users/jli/Documents/depot/app/views/line_items/_line_item.html.erb",
 		"/Users/jli/Documents/depot/app/views/line_items/decrement.js.erb",
-		"/Users/jli/Documents/depot/app/views/line_items/create.js.erb",
 		"/Users/jli/Documents/depot/app/views/carts/decrement.js.erb",
 		"/Users/jli/Documents/depot/app/controllers/carts_controller.rb",
 		"/Users/jli/Documents/depot/app/views/store/index.html.erb",
 		"/Users/jli/Documents/depot/app/views/carts/destroy.js.erb",
 		"/Users/jli/Documents/depot/app/views/line_items/destroy.js.erb",
 		"/Users/jli/Documents/depot/app/assets/javascripts/carts.js.coffee",
-		"/Users/jli/Documents/depot/test/unit/helpers/carts_helper_test.rb",
 		"/Users/jli/Documents/depot/app/helpers/application_helper.rb",
 		"/Users/jli/Documents/depot/app/assets/javascripts/application.js",
-		"/Users/jli/Documents/depot/app/assets/stylesheets/application.css.scss",
 		"/Users/jli/Documents/depot/app/views/carts/show.html.erb",
 		"/Users/jli/Documents/depot/app/assets/javascripts/store.js.coffee",
 		"/Users/jli/Documents/depot/app/views/layouts/application.html.erb",
@@ -89,7 +105,6 @@
 		"/Users/jli/Documents/depot/app/views/line_items/index.html.erb",
 		"/Users/jli/Documents/depot/app/assets/stylesheets/carts.css.scss",
 		"/Users/jli/Documents/depot/test/unit/cart_test.rb",
-		"/Users/jli/Documents/depot/test/fixtures/line_items.yml",
 		"/Users/jli/Documents/depot/test/fixtures/carts.yml",
 		"/Users/jli/Documents/depot/db/migrate/20120914195331_combine_items_in_cart.rb",
 		"/Users/jli/Documents/depot/db/migrate/20120917150951_add_price_to_line_item.rb",
@@ -101,7 +116,6 @@
 		"/Users/jli/Documents/depot/app/views/products/index.html.erb",
 		"/Users/jli/Documents/depot/test/fixtures/products.yml",
 		"/Users/jli/Documents/depot/test/unit/product_test.rb",
-		"/Users/jli/Documents/depot/app/controllers/products_controller.rb",
 		"/Users/jli/Documents/depot/app/assets/stylesheets/products.css.scss",
 		"/Users/jli/Documents/depot/Rakefile",
 		"/Users/jli/Documents/depot/.gitignore",
@@ -151,6 +165,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\n							",
 			"      ",
 			"cart",
 			"\n  ",
@@ -228,8 +243,128 @@
 		"selected_items":
 		[
 			[
+				"cart",
+				"app/models/cart.rb"
+			],
+			[
+				"ordernottest",
+				"test/functional/order_notifier_test.rb"
+			],
+			[
+				"shipped",
+				"app/views/order_notifier/shipped.text.erb"
+			],
+			[
+				"receive",
+				"app/views/order_notifier/received.text.erb"
+			],
+			[
+				"ordernoti",
+				"app/mailers/order_notifier.rb"
+			],
+			[
+				"shipper",
+				"app/views/order_notifier/shipped.text.erb"
+			],
+			[
+				"ordercont",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"order_not",
+				"app/mailers/order_notifier.rb"
+			],
+			[
+				"recev",
+				"app/views/order_notifier/received.text.erb"
+			],
+			[
+				"ordernot.rb",
+				"app/mailers/order_notifier.rb"
+			],
+			[
+				"envir",
+				"config/environment.rb"
+			],
+			[
+				"vieworderind",
+				"app/views/orders/index.html.erb"
+			],
+			[
+				"ordercontroler",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"produccon",
+				"app/controllers/products_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
 				"modelprod",
 				"app/models/product.rb"
+			],
+			[
+				"productscontrol",
+				"app/controllers/products_controller.rb"
+			],
+			[
+				"viewlineitecreat",
+				"app/views/line_items/create.js.erb"
+			],
+			[
+				"modelcart",
+				"app/models/cart.rb"
+			],
+			[
+				"ordercontrotest",
+				"test/functional/orders_controller_test.rb"
+			],
+			[
+				"ordercon",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"order",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"line",
+				"app/models/line_item.rb"
+			],
+			[
+				"fixtureline",
+				"test/fixtures/line_items.yml"
+			],
+			[
+				"fixtureorder",
+				"test/fixtures/orders.yml"
+			],
+			[
+				"modelorder",
+				"app/models/order.rb"
+			],
+			[
+				"lineitemcon",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"orderscont",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"orderform",
+				"app/views/orders/_form.html.erb"
+			],
+			[
+				"viewordernew",
+				"app/views/orders/new.html.erb"
 			],
 			[
 				"modellineit",
@@ -284,18 +419,6 @@
 				"app/models/product.rb"
 			],
 			[
-				"modelcart",
-				"app/models/cart.rb"
-			],
-			[
-				"modelorder",
-				"app/models/order.rb"
-			],
-			[
-				"order",
-				"app/controllers/orders_controller.rb"
-			],
-			[
 				"liitecontes",
 				"test/functional/line_items_controller_test.rb"
 			],
@@ -330,10 +453,6 @@
 			[
 				"cart.rb",
 				"app/models/cart.rb"
-			],
-			[
-				"lineitemcon",
-				"app/controllers/line_items_controller.rb"
 			],
 			[
 				"viewlineite",
@@ -382,10 +501,6 @@
 			[
 				"cartcontrol",
 				"app/controllers/carts_controller.rb"
-			],
-			[
-				"cart",
-				"test/unit/helpers/carts_helper_test.rb"
 			],
 			[
 				"store_controltest",
@@ -520,10 +635,6 @@
 				"app/views/carts/show.html.erb"
 			],
 			[
-				"line",
-				"app/models/line_item.rb"
-			],
-			[
 				"fixturelineitem",
 				"test/fixtures/line_items.yml"
 			],
@@ -642,90 +753,6 @@
 			[
 				"storeinde",
 				"app/views/store/index.html.erb"
-			],
-			[
-				"applicationhtm",
-				"app/views/layouts/application.html.erb"
-			],
-			[
-				"storehelp",
-				"app/helpers/store_helper.rb"
-			],
-			[
-				"viewsstoreind",
-				"app/views/store/index.html.erb"
-			],
-			[
-				"storecon",
-				"app/controllers/store_controller.rb"
-			],
-			[
-				"configroutes",
-				"config/routes.rb"
-			],
-			[
-				"productscontrol",
-				"app/controllers/products_controller.rb"
-			],
-			[
-				"product.r",
-				"app/models/product.rb"
-			],
-			[
-				"prodtest",
-				"test/unit/product_test.rb"
-			],
-			[
-				"prody",
-				"test/fixtures/products.yml"
-			],
-			[
-				"product_test",
-				"test/unit/product_test.rb"
-			],
-			[
-				"fixturespr",
-				"test/fixtures/products.yml"
-			],
-			[
-				"prodcontroltest",
-				"test/functional/products_controller_test.rb"
-			],
-			[
-				"modelspro",
-				"app/models/product.rb"
-			],
-			[
-				"indexer",
-				"app/views/products/index.html.erb"
-			],
-			[
-				"application.html.",
-				"app/views/layouts/application.html.erb"
-			],
-			[
-				"productcs",
-				"app/assets/stylesheets/products.css.scss"
-			],
-			[
-				"seeds",
-				"db/seeds.rb"
-			],
-			[
-				"_form",
-				"app/views/products/_form.html.erb"
-			],
-			[
-				"routes",
-				"config/routes.rb"
-			],
-			[
-				"say",
-				"app/controllers/say_controller.rb"
-			],
-			[
-				"hello",
-				"app/views/say/hello.html.erb"
 			]
 		],
 		"width": 0.0
@@ -742,6 +769,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 201.0,
+	"side_bar_width": 249.0,
 	"status_bar_visible": true
 }

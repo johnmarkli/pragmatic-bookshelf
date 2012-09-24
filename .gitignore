@@ -24,6 +24,9 @@
 # Ignore vim swap files
 *.swp
 
+#ignore sublime files
+*.sublime*
+
 =======
 *.rbc
 *.sassc

@@ -39,3 +39,6 @@ gem 'jquery-rails'
 
 # Paginate
 gem 'will_paginate', '~> 3.0'
+
+# bcrypt-ruby
+gem 'bcrypt-ruby'

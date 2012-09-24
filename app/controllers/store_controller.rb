@@ -1,4 +1,5 @@
 class StoreController < ApplicationController
+  skip_before_filter :authorize
   def index
   	# @products = Product.find(:all)
   	@products = Product.order(:title)
